@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(/img/cities/kyiv.jpg);
+  min-width: 500px;
+}
+
+.wrapper {
+  width: 500px;
+  height: 98vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0 10px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #007bff;
+  border-radius: 8px;
+}
+
+.container_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.title_container h1{
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: .18px;
+  line-height: 28px;
+  margin: 0 0 6px;
+}
+
+.data_container h2 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .25px;
+  line-height: 2px;
+  margin: 0;
+  color: #e2e2e2;
+}
+
+.container_2 {
+  width: 100%;
+  display: flex;
+  color: #fff;
+}
+
+.temp_container {
+  display: flex;
+}
+
+.current-temp_container p{
+  font-size: 64px;
+  margin-bottom: 34px;
+}
+
+.feels-like_container {
+  display: flex;
+  color: #e2e2e2;
+}
+
+.feels-like_container #feels-like-temp{
+  color: #fff;
+  font-weight: 600;
+}
+
+.img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img_container img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.min-max-temp_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12%;
+  font-size: 20px;
+}
+
+.min-max-temp_container div{
+  height: 50%;
+  width: 100%;
+}
+
+.container_3 {
+  display: flex;
+  color: #fff;
+  padding-right: 28px;
+}
+
+.container_3 div{
+  width: 33%;
+  border-radius: 4px;
+  margin-right: 5px;
+  background-color: #2b91ff;
+}
+
+.container_3 div p{
+  text-align: center;
+}

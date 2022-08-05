@@ -6,9 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="500">
 </head>
 <body>
-  <h1>hello world!</h1>
+  <div class="wrapper">
+    <div class="content">
+
+      <div class="container_1">
+        <div class="title_container">
+          <h1>Погода в ... сейчас</h1>
+        </div>
+        <div class="data_container">
+          <h2>Дата и время</h2>
+        </div>
+      </div>
+
+      <div class="container_2">
+        <div class="temp_container">
+          <div class="degrees_container">
+            <div class="current-temp_container">
+              <p>+25°</p>
+            </div>
+            <div class="feels-like_container">
+              <p>По ощущениям</p>
+              <p id="feels-like-temp">+23°</p>
+            </div>
+          </div>
+          <div class="img_container">
+            <img src="/img/weather/default.jpg" alt="Error">
+          </div>
+        </div>
+        <div class="min-max-temp_container">
+          <div>
+            <p>min</p>
+            <p>+20°</p>
+          </div>
+          <div>
+            <p>max</p>
+            <p>+25°</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_3">
+        <div class="wind_container">
+          <p>Ветер</p>
+          <p>25 km/h</p>
+        </div>
+        <div class="pressure_container">
+          <p>Давление</p>
+          <p>1000 mm</p>
+        </div>
+        <div class="humidity_container">
+          <p>Влажность</p>
+          <p>56%</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
