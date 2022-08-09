@@ -19,6 +19,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#cities_select {
+  width: 150px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+#find-out_button {
+  width: 80px;
+  height: 24px;
+}
+
 .content {
   width: 100%;
   height: fit-content;

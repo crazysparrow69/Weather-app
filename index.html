@@ -10,14 +10,28 @@
 </head>
 <body>
   <div class="wrapper">
+
+    <div class="sample">
+      <select name="select" id="cities_select">
+        <option value="Belgorod">Белгород</option>
+        <option value="Kyiv">Киев</option>  
+        <option value="London">Лондон</option>
+        <option value="Moskow">Москва</option>  
+        <option value="Paris">Париж</option> 
+        <option value="Tokyo">Токио</option> 
+        <option value="Toronto">Торонто</option> 
+      </select>
+      <button id="find-out_button">Узнать!</button>
+    </div>
+
     <div class="content">
 
       <div class="container_1">
         <div class="title_container">
-          <h1>Погода в ... сейчас</h1>
+          <h1 id="city">Погода в ... сейчас</h1>
         </div>
         <div class="data_container">
-          <h2>Дата и время</h2>
+          <h2 id="date">Дата и время</h2>
         </div>
       </div>
 
@@ -25,7 +39,7 @@
         <div class="temp_container">
           <div class="degrees_container">
             <div class="current-temp_container">
-              <p>+25°</p>
+              <p id="current-temp">+25°</p>
             </div>
             <div class="feels-like_container">
               <p>По ощущениям</p>
@@ -33,17 +47,17 @@
             </div>
           </div>
           <div class="img_container">
-            <img src="/img/weather/default.jpg" alt="Error">
+            <img id="img" src="/img/weather/default.jpg" alt="Error">
           </div>
         </div>
         <div class="min-max-temp_container">
           <div>
             <p>min</p>
-            <p>+20°</p>
+            <p id="min-temp">+20°</p>
           </div>
           <div>
             <p>max</p>
-            <p>+25°</p>
+            <p id="max-temp">+25°</p>
           </div>
         </div>
       </div>
@@ -51,20 +65,20 @@
       <div class="container_3">
         <div class="wind_container">
           <p>Ветер</p>
-          <p>25 km/h</p>
+          <p id="wind">25 km/h</p>
         </div>
         <div class="pressure_container">
           <p>Давление</p>
-          <p>1000 mm</p>
+          <p id="pressure">1000 mm</p>
         </div>
         <div class="humidity_container">
           <p>Влажность</p>
-          <p>56%</p>
+          <p id="humidity">56%</p>
         </div>
       </div>
 
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
